@@ -1,0 +1,14 @@
+
+.header
+  = link_to "血しぶきの館", root_path, class: "header__left--btn"
+  .header__top
+    - if user_signed_in?
+      = link_to "新規投稿", new_post_path, class: "header__right"
+      = link_to "ログアウト", destroy_user_session_path, method: :delete, class: "header__right"
+    - else
+      = link_to "ログイン", new_user_session_path, class: "header__right"
+      = link_to "新規登録", new_user_registration_path, class: "header__right"
+.main
+  = image_tag "jack-cain-EKF89yEbGf8-unsplash.jpg"
+
+
