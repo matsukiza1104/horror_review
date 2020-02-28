@@ -1,14 +1,86 @@
-
-.header
-  = link_to "血しぶきの館", root_path, class: "header__left--btn"
-  .header__top
-    - if user_signed_in?
-      = link_to "新規投稿", new_post_path, class: "header__right"
-      = link_to "ログアウト", destroy_user_session_path, method: :delete, class: "header__right"
-    - else
-      = link_to "ログイン", new_user_session_path, class: "header__right"
-      = link_to "新規登録", new_user_registration_path, class: "header__right"
+= render 'layouts/header'
+.aaa
 .main
-  = image_tag "jack-cain-EKF89yEbGf8-unsplash.jpg"
-
-
+  .main__total
+    総合映画ランキング
+  .main__content
+    - @post.each do |post|
+      = link_to post_path(post.id) do
+        .main__content__each
+          = image_tag post.images[0][:pic]
+          = post.title
+          %br
+          .main__content__each__favourite
+            いいね！数
+          .main__content__each__star
+            ★100
+  .main__zombie
+    ゾンビ映画ランキング
+  .main__content
+    - @post.each do |post|
+      .main__content__each
+        = image_tag post.images[0][:pic]
+        = post.title
+        %br
+        .main__content__each__favourite
+          いいね！数
+  .main__murderer
+    サイコ映画ランキング
+  .main__content
+    - @post.each do |post|
+      .main__content__each
+        = image_tag post.images[0][:pic]
+        = post.title
+        %br
+        .main__content__each__favourite
+          いいね！数
+  .main__thriller
+    スリラー映画ランキング
+  .main__content
+    - @post.each do |post|
+      .main__content__each
+        = image_tag post.images[0][:pic]
+        = post.title
+        %br
+        .main__content__each__favourite
+          いいね！数
+  .main__monster
+    モンスター映画ランキング
+  .main__content
+    - @post.each do |post|
+      .main__content__each
+        = image_tag post.images[0][:pic]
+        = post.title
+        %br
+        .main__content__each__favourite
+          いいね！数
+  .main__occult
+    オカルト映画ランキング
+  .main__content
+    - @post.each do |post|
+      .main__content__each
+        = image_tag post.images[0][:pic]
+        = post.title
+        %br
+        .main__content__each__favourite
+          いいね！数
+  .main__japanese
+    Jホラー映画ランキング
+  .main__content
+    - @post.each do |post|
+      .main__content__each
+        = image_tag post.images[0][:pic]
+        = post.title
+        %br
+        .main__content__each__favourite
+          いいね！数
+  .main__grotesque
+    グロテスク映画ランキング
+  .main__content
+    - @post.each do |post|
+      .main__content__each
+        = image_tag post.images[0][:pic]
+        = post.title
+        %br
+        .main__content__each__favourite
+          いいね！数

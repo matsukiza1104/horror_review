@@ -1,9 +1,13 @@
 class PostsController < ApplicationController
 
   def index
+    @post = Post.includes(:images)
   end
 
-  def new
+  def show
+    @post = Post.find(params[:id])
+    @images = @post.images
+    # @genres = Genre.find(params[:id])
   end
   
 end

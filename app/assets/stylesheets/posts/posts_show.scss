@@ -1,0 +1,64 @@
+.show {
+  height: 100%;
+  width: 100%;
+  background-color: #eee;
+  padding-top: 80px;
+  &__top-box {
+    display: flex;
+    // justify-content: space-between;
+    width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+    &__pic {
+      text-align: center;
+    }
+    &__introduction {
+      margin-left: 40px;
+      background-color: white;
+      width: 600px;
+      padding: 10px;
+      &__title {
+        font-size: 35px;
+        font-weight: bold;
+        margin-bottom: 7px;
+        &__date {
+          font-size: 18px;
+          padding-left: 10px;
+        }
+      }
+      &__genre {
+        font-size: 22px;
+      }
+      &__country {
+        font-size: 22px;
+      }
+      &__director {
+        font-size: 22px;
+      }
+      &__story {
+        padding-top: 10px;
+        font-weight: bold;
+        font-size: 28px;
+      }
+      &__story-detail {
+        font-size: 18px;
+      }
+    }
+  }
+  &__comment {
+    background-color: white;
+    height: 500px;
+    width: 700px;
+    margin: 0 auto;
+  }
+    // box-shadow: black;
+    // box-sizing: border-box;
+    // &__field {
+    //   text-align: center;
+
+    // }
+}
+.comment-box {
+  height: 300px;
+  width: 500px;
+}
