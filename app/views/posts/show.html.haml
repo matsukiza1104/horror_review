@@ -7,21 +7,27 @@
       .show__top-box__introduction__title
         = @post.title
         %span.show__top-box__introduction__title__date
-          (2016年制作の映画)
+          (
+          = @post.year
+          年制作の映画)
       .show__top-box__introduction__genre
         ジャンル：
-        = @post.genres
+        - @post.post_genres.each do |genre|
+          ／
+          = genre.genre.genre
       .show__top-box__introduction__country
-        制作国：アメリカ
+        制作国：
+        = @post.country
       .show__top-box__introduction__director
-        監督：フェデ・アルバレス
+        監督：
+        = @post.director
       .show__top-box__introduction__story
         あらすじ
       .show__top-box__introduction__story-detail
-        = @post.content
+        = @post.story
 
 
   .show__comment
-    -# .comment__field
-    -#   = form_for "aaa" do |f|
-    -#     = f.text_area :content, placeholder: "コメントする", class: 'comment-box'
+    .comment__field
+      = form_for "aaa" do |f|
+        = f.text_area :content, placeholder: "コメントする", class: 'comment-box'
