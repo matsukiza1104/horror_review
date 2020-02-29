@@ -28,6 +28,21 @@
 
 
   .show__comment
-    .comment__field
-      = form_for "aaa" do |f|
+    .show__comment__field
+      = form_for [@post, @comment] do |f|
+  
         = f.text_area :content, placeholder: "コメントする", class: 'comment-box'
+        = f.submit "SEND", class: "form__submit"
+    .show__comment__list
+      .show__comment__list__display
+        「
+        = @post.title
+        」
+        %br
+        に投稿された感想・評価（ネタバレあり）
+      .show__comment__list__content
+        - @comments.each do |comment|
+          .show__comment__list__content__each
+            = comment.user.email
+            %br
+            = comment.content
