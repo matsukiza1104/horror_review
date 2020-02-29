@@ -4,11 +4,11 @@
   .field
     = f.label :username
     %br/
-    = f.text_field :username, autofocus: true, autocomplete: "username"
+    = f.text_field :username, autofocus: true, autocomplete: "username",placeholder:"例）山田 太郎"
   .field
     = f.label :email
     %br/
-    = f.email_field :email, autocomplete: "email"
+    = f.email_field :email, autocomplete: "email",placeholder:"例）yamada@gmail.com"
   .field
     = f.label :password
     - if @minimum_password_length

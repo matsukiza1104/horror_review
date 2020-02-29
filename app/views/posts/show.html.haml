@@ -43,6 +43,10 @@
       .show__comment__list__content
         - @comments.each do |comment|
           .show__comment__list__content__each
-            = comment.user.email
+            「
+            = comment.user.username
+            」さんの感想・評価
+            = comment.created_at.strftime("%Y年%m月%d日 %H時%M分")
             %br
             = comment.content
+  .show__footer
