@@ -18,7 +18,7 @@
       width: 600px;
       padding: 10px;
       &__title {
-        font-size: 35px;
+        font-size: 30px;
         font-weight: bold;
         margin-bottom: 7px;
         &__date {
@@ -41,24 +41,74 @@
         font-size: 28px;
       }
       &__story-detail {
-        font-size: 18px;
+        font-size: 17px;
       }
     }
   }
   &__comment {
     background-color: white;
-    height: 500px;
+    height: 100%;
     width: 700px;
     margin: 0 auto;
-  }
+    text-align: center;
+    padding: 30px;
     // box-shadow: black;
     // box-sizing: border-box;
-    // &__field {
-    //   text-align: center;
+    &__field {
+      &__disabled-post {
 
-    // }
+      }
+    }
+    &__list {
+      padding-top: 20px;
+      &__display {
+        padding: 15px;
+        background-color: #dfdfdf;
+        font-size: 22px;
+        font-weight: 600;
+      }
+      &__content {
+        &__each {
+          padding: 15px;
+          background-color: #dfdfdf;
+          margin-top: 20px;
+          border: 1px solid #eee;
+          line-height: 1.57;
+          letter-spacing: 0.15em;
+          font-size: 16px;
+          color: #666;
+          text-align: left;
+          &__test {
+            font-size: 13px;
+          }
+        }
+      }
+    }
+  }
 }
+
+
+
+
+
+
+
+
 .comment-box {
-  height: 300px;
+  height: 120px;
   width: 500px;
+  font-size: 20px;
+}
+.form__submit {
+  background-color: red;
+  border-radius: 20px;
+  color: #fff;
+  border: 0;
+  font-size: 18px;
+  width: 600px;
+  height: 40px;
+  margin-top: 30px;
+}
+.log-in {
+  text-decoration: none;
 }

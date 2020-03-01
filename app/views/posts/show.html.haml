@@ -7,21 +7,56 @@
       .show__top-box__introduction__title
         = @post.title
         %span.show__top-box__introduction__title__date
-          (2016年制作の映画)
+          (
+          = @post.year
+          年制作の映画)
       .show__top-box__introduction__genre
         ジャンル：
-        = @post.genres
+        - @post.post_genres.each do |genre|
+          ／
+          = genre.genre.genre
       .show__top-box__introduction__country
-        制作国：アメリカ
+        制作国：
+        = @post.country
       .show__top-box__introduction__director
-        監督：フェデ・アルバレス
+        監督：
+        = @post.director
       .show__top-box__introduction__story
         あらすじ
       .show__top-box__introduction__story-detail
-        = @post.content
+        = @post.story
 
 
   .show__comment
-    -# .comment__field
-    -#   = form_for "aaa" do |f|
-    -#     = f.text_area :content, placeholder: "コメントする", class: 'comment-box'
+    .show__comment__field
+      - if user_signed_in?
+        = form_for [@post, @comment] do |f|
+          = f.text_area :content, placeholder: "コメントする", class: 'comment-box'
+          = f.submit "SEND", class: "form__submit"
+      - else
+        .show__comment__field__disabled-post
+          コメントを投稿するには
+          = link_to "ログイン", new_user_session_path, class: "log-in"
+          、または
+          = link_to "新規登録", new_user_registration_path, class: "log-in"
+          をしてください。
+
+    .show__comment__list
+      .show__comment__list__display
+        「
+        = @post.title
+        」
+        %br
+        に投稿された感想・評価（ネタバレあり）
+      .show__comment__list__content
+        - @comments.each do |comment|
+          .show__comment__list__content__each
+            「
+            = comment.user.username
+            」さんの感想・評価
+            %span.show__comment__list__content__each__test
+              = comment.created_at.strftime("%Y年%m月%d日 %H時%M分")
+            %br
+            = comment.content
+  .show__footer
+= render 'layouts/footer'
