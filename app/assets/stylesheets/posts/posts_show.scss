@@ -55,6 +55,9 @@
     // box-shadow: black;
     // box-sizing: border-box;
     &__field {
+      &__disabled-post {
+
+      }
     }
     &__list {
       padding-top: 20px;
@@ -75,6 +78,9 @@
           font-size: 16px;
           color: #666;
           text-align: left;
+          &__test {
+            font-size: 13px;
+          }
         }
       }
     }
@@ -103,5 +109,6 @@
   height: 40px;
   margin-top: 30px;
 }
-
-
+.log-in {
+  text-decoration: none;
+}

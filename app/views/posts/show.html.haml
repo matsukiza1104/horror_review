@@ -29,10 +29,18 @@
 
   .show__comment
     .show__comment__field
-      = form_for [@post, @comment] do |f|
-  
-        = f.text_area :content, placeholder: "コメントする", class: 'comment-box'
-        = f.submit "SEND", class: "form__submit"
+      - if user_signed_in?
+        = form_for [@post, @comment] do |f|
+          = f.text_area :content, placeholder: "コメントする", class: 'comment-box'
+          = f.submit "SEND", class: "form__submit"
+      - else
+        .show__comment__field__disabled-post
+          コメントを投稿するには
+          = link_to "ログイン", new_user_session_path, class: "log-in"
+          、または
+          = link_to "新規登録", new_user_registration_path, class: "log-in"
+          をしてください。
+
     .show__comment__list
       .show__comment__list__display
         「
@@ -46,7 +54,9 @@
             「
             = comment.user.username
             」さんの感想・評価
-            = comment.created_at.strftime("%Y年%m月%d日 %H時%M分")
+            %span.show__comment__list__content__each__test
+              = comment.created_at.strftime("%Y年%m月%d日 %H時%M分")
             %br
             = comment.content
   .show__footer
+= render 'layouts/footer'
