@@ -1,3 +1,4 @@
+= render 'layouts/notifications'
 = render 'layouts/header'
 .show
   .show__top-box
@@ -10,6 +11,9 @@
           (
           = @post.year
           年制作の映画)
+      .show__top-box__introduction__favourite
+        お気に入り総数🧟‍♂️：
+        = @post.likes_count
       .show__top-box__introduction__genre
         ジャンル：
         - @post.post_genres.each do |genre|
@@ -33,6 +37,8 @@
         = form_for [@post, @comment] do |f|
           = f.text_area :content, placeholder: "コメントする", class: 'comment-box'
           = f.submit "SEND", class: "form__submit"
+
+          = render partial: 'likes/like', locals: { post: @post, likes: @likes}
       - else
         .show__comment__field__disabled-post
           コメントを投稿するには
@@ -40,6 +46,8 @@
           、または
           = link_to "新規登録", new_user_registration_path, class: "log-in"
           をしてください。
+          
+
 
     .show__comment__list
       .show__comment__list__display
