@@ -1,7 +1,7 @@
 class PostsController < ApplicationController
 
   def index
-    @post = Post.includes(:images)
+    @post = Post.includes(:images).order("likes_count DESC")
   end
 
   def show

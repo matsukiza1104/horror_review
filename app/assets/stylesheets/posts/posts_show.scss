@@ -26,19 +26,26 @@
           padding-left: 10px;
         }
       }
+      &__favourite {
+        background-color: #55c5;
+        border-radius: 20px;
+        width: 220px;
+        padding: 3px;
+        font-size: 18px;
+      }
       &__genre {
-        font-size: 22px;
+        font-size: 18px;
       }
       &__country {
-        font-size: 22px;
+        font-size: 18px;
       }
       &__director {
-        font-size: 22px;
+        font-size: 18px;
       }
       &__story {
         padding-top: 10px;
         font-weight: bold;
-        font-size: 28px;
+        font-size: 26px;
       }
       &__story-detail {
         font-size: 17px;
@@ -111,4 +118,9 @@
 }
 .log-in {
   text-decoration: none;
+}
+.notification{
+  background-color: red;
+  color: white;
+  text-align: center;
 }
