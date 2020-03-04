@@ -1,86 +1,125 @@
+= render 'layouts/notifications'
 = render 'layouts/header'
-.aaa
 .main
   .main__total
     総合映画ランキング
   .main__content
-    - @post.each do |post|
+    - @post.first(5).each.with_index(1) do |post, i|
       = link_to post_path(post.id) do
         .main__content__each
+          = i
+          位👑
+          = image_tag post.images[0][:pic]
+          = post.title.truncate(12)
+          %br
+          .main__content__each__favourite
+            お気に入り数
+            (
+            = post.likes_count
+            )
+  .main__zombie
+    ゾンビ映画ランキング
+  .main__content
+    - @zombie.first(5).each.with_index(1) do |post, i|
+      = link_to post_path(post.id) do
+        .main__content__each
+          = i
+          位👑
           = image_tag post.images[0][:pic]
           = post.title
           %br
           .main__content__each__favourite
-            いいね！数
-          .main__content__each__star
-            ★100
-  .main__zombie
-    ゾンビ映画ランキング
-  .main__content
-    - @post.each do |post|
-      .main__content__each
-        = image_tag post.images[0][:pic]
-        = post.title
-        %br
-        .main__content__each__favourite
-          いいね！数
+            お気に入り数
+            (
+            = post.likes_count
+            )
   .main__murderer
     サイコ映画ランキング
   .main__content
-    - @post.each do |post|
+    - @post.first(5).each.with_index(1) do |post, i|
       .main__content__each
+        = i
+        位👑
         = image_tag post.images[0][:pic]
         = post.title
         %br
         .main__content__each__favourite
-          いいね！数
+          お気に入り数
+          (
+          = post.likes_count
+          )
   .main__thriller
     スリラー映画ランキング
   .main__content
-    - @post.each do |post|
+    - @post.first(5).each.with_index(1) do |post, i|
       .main__content__each
+        = i
+        位👑
         = image_tag post.images[0][:pic]
         = post.title
         %br
         .main__content__each__favourite
-          いいね！数
+          お気に入り数
+          (
+          = post.likes_count
+          )
   .main__monster
     モンスター映画ランキング
   .main__content
-    - @post.each do |post|
+    - @post.first(5).each.with_index(1) do |post, i|
       .main__content__each
+        = i
+        位👑
         = image_tag post.images[0][:pic]
         = post.title
         %br
         .main__content__each__favourite
-          いいね！数
+          お気に入り数
+          (
+          = post.likes_count
+          )
   .main__occult
     オカルト映画ランキング
   .main__content
-    - @post.each do |post|
+    - @post.first(5).each.with_index(1) do |post, i|
       .main__content__each
+        = i
+        位👑
         = image_tag post.images[0][:pic]
         = post.title
         %br
         .main__content__each__favourite
-          いいね！数
+          お気に入り数
+          (
+          = post.likes_count
+          )
   .main__japanese
     Jホラー映画ランキング
   .main__content
-    - @post.each do |post|
+    - @post.first(5).each.with_index(1) do |post, i|
       .main__content__each
+        = i
+        位👑
         = image_tag post.images[0][:pic]
         = post.title
         %br
         .main__content__each__favourite
-          いいね！数
+          お気に入り数
+          (
+          = post.likes_count
+          )
   .main__grotesque
     グロテスク映画ランキング
   .main__content
-    - @post.each do |post|
+    - @post.first(5).each.with_index(1) do |post, i|
       .main__content__each
+        = i
+        位👑
         = image_tag post.images[0][:pic]
         = post.title
         %br
         .main__content__each__favourite
-          いいね！数
+          お気に入り数
+          (
+          = post.likes_count
+          )

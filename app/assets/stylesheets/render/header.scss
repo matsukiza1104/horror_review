@@ -1,23 +1,78 @@
-body{
-  background-color: #f6f6f6;
-  min-width: 650px;
-  .header{
-    height: 56px;
-    width: 100%;
-    padding: 0 150px;
-    background-color: #55c5;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    &__left--btn{
-      font-size: 40px;
+.header{
+  height: 56px;
+  width: 100%;
+  padding: 0 150px;
+  background-color: #55c5;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  &__left--btn{
+    font-size: 40px;
+    text-decoration: none;
+  }
+  &__right{
       text-decoration: none;
-    }
-    &__right{
-        text-decoration: none;
-        line-height: 56px;
-        color: #fff;
-        margin-left:15px;
-    }
+      line-height: 56px;
+      color: #fff;
+      margin-left:15px;
   }
 }
+.header-second {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 150px;
+  font-size: 20px;
+  background-color: #55c5;
+  font-weight: 700;
+  padding-bottom: 3px;
+  
+  &__total {
+    border: 1px solid #fee;
+    padding: 5px;
+    border-radius: 20px;
+  }
+  &__zombie {
+    border: 1px solid #fee;
+    padding: 5px;
+    border-radius: 20px;
+  }
+  &__murderer {
+    border: 1px solid #fee;
+    padding: 5px;
+    border-radius: 20px;
+  }
+  &__thriller {
+    border: 1px solid #fee;
+    padding: 5px;
+    border-radius: 20px;
+  }
+  &__monster {
+    border: 1px solid #fee;
+    padding: 5px;
+    border-radius: 20px;
+  }
+  &__occult {
+    border: 1px solid #fee;
+    padding: 5px;
+    border-radius: 20px;
+  }
+  &__japanese {
+    border: 1px solid #fee;
+    padding: 5px;
+    border-radius: 20px;
+  }
+  &__grotesque {
+    border: 1px solid #fee;
+    padding: 5px;
+    border-radius: 20px;
+  }
+  &__recommend {
+    border: 1px solid #fee;
+    padding: 5px;
+    border-radius: 20px;
+  }
+}
+.header__horror {
+  text-decoration: none;
+}
+

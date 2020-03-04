@@ -2,6 +2,8 @@ class PostsController < ApplicationController
 
   def index
     @post = Post.includes(:images).order("likes_count DESC")
+    @zombie = Post.joins(post_genres: :genre).includes(:images).where(genres: {id: 1}).order("likes_count DESC")
+    @genre = Genre.all
   end
 
   def show
@@ -14,6 +16,39 @@ class PostsController < ApplicationController
   def create
     Post.create(post_params)
   end
+
+  def total
+    @post = Post.includes(:images).order("likes_count DESC")
+  end
+  def zombie
+    @post = Post.all
+    @zombie = Post.joins(post_genres: :genre).includes(:images).where(genres: {id: 1}).order("likes_count DESC")
+  end
+  def murderer
+    @post = Post.all
+    @murderer = Post.joins(post_genres: :genre).includes(:images).where(genres: {id: 2}).order("likes_count DESC")
+  end
+  def thriller
+    @post = Post.all
+    @thriller = Post.joins(post_genres: :genre).includes(:images).where(genres: {id: 3}).order("likes_count DESC")
+  end
+  def monster
+    @post = Post.all
+    @monster = Post.joins(post_genres: :genre).includes(:images).where(genres: {id: 4}).order("likes_count DESC")
+  end
+  def occult
+    @post = Post.all
+    @occult = Post.joins(post_genres: :genre).includes(:images).where(genres: {id: 5}).order("likes_count DESC")
+  end
+  def japanese
+    @post = Post.all
+    @japanese = Post.joins(post_genres: :genre).includes(:images).where(genres: {id: 6}).order("likes_count DESC")
+  end
+  def grotesque
+    @post = Post.all
+    @grotesque = Post.joins(post_genres: :genre).includes(:images).where(genres: {id: 7}).order("likes_count DESC")
+  end
+
 
   private
   def post_params
