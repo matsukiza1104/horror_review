@@ -2,16 +2,8 @@ class PostsController < ApplicationController
 
   def index
     @post = Post.includes(:images).order("likes_count DESC")
-    # @zombie = @post.where(genre: 'ゾンビ')
-    # @zombie = Post.find_by(genres: [1])
-    # @zombie = @post.post_genres[1]
-    # @zombie = @post.genres
-    # @zombie = Post.genres
-    # @zombie = Genre.includes(:posts).where(id: 1)
-    # @genre = Genre.all
-    # @posts = Post_genre.where(buyer: nil).order(id:“DESC”)
-    # @user_items = Item.where(saler: @user).includes(:images).order("created_at DESC")
     @zombie = Post.joins(post_genres: :genre).includes(:images).where(genres: {id: 1}).order("likes_count DESC")
+    @genre = Genre.all
   end
 
   def show
@@ -25,8 +17,38 @@ class PostsController < ApplicationController
     Post.create(post_params)
   end
 
-  def zombie
+  def total
+    @post = Post.includes(:images).order("likes_count DESC")
   end
+  def zombie
+    @post = Post.all
+    @zombie = Post.joins(post_genres: :genre).includes(:images).where(genres: {id: 1}).order("likes_count DESC")
+  end
+  def murderer
+    @post = Post.all
+    @murderer = Post.joins(post_genres: :genre).includes(:images).where(genres: {id: 2}).order("likes_count DESC")
+  end
+  def thriller
+    @post = Post.all
+    @thriller = Post.joins(post_genres: :genre).includes(:images).where(genres: {id: 3}).order("likes_count DESC")
+  end
+  def monster
+    @post = Post.all
+    @monster = Post.joins(post_genres: :genre).includes(:images).where(genres: {id: 4}).order("likes_count DESC")
+  end
+  def occult
+    @post = Post.all
+    @occult = Post.joins(post_genres: :genre).includes(:images).where(genres: {id: 5}).order("likes_count DESC")
+  end
+  def japanese
+    @post = Post.all
+    @japanese = Post.joins(post_genres: :genre).includes(:images).where(genres: {id: 6}).order("likes_count DESC")
+  end
+  def grotesque
+    @post = Post.all
+    @grotesque = Post.joins(post_genres: :genre).includes(:images).where(genres: {id: 7}).order("likes_count DESC")
+  end
+
 
   private
   def post_params

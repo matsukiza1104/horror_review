@@ -6,5 +6,22 @@
     - else
       = link_to "ログイン", new_user_session_path, class: "header__right"
       = link_to "新規登録", new_user_registration_path, class: "header__right"
-  .header__second
-    aaaa
+.header-second
+  .header-second__total
+    = link_to "総合ホラー", post_total_path(@post), class: "header__horror"
+  .header-second__zombie
+    = link_to "ゾンビ", post_zombie_path(@post), class: "header__horror"
+  .header-second__murderer
+    = link_to "サイコ", post_murderer_path(@post), class: "header__horror"
+  .header-second__thriller
+    = link_to "スリラー", post_thriller_path(@post), class: "header__horror"
+  .header-second__monster
+    = link_to "モンスター", post_monster_path(@post), class: "header__horror"
+  .header-second__occult
+    = link_to "オカルト", post_occult_path(@post), class: "header__horror"
+  .header-second__japanese
+    = link_to "Jホラー", post_japanese_path(@post), class: "header__horror"
+  .header-second__grotesque
+    = link_to "グロテスク", post_grotesque_path(@post), class: "header__horror"
+  .header-second__recommend
+    = link_to "みんなのおすすめ映画", root_path, class: "header__horror"

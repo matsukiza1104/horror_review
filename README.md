@@ -28,4 +28,4 @@ Things you may want to cover:
 ○トップページのscss
 ○デプロイ
 ○seed.rbにDBデータ保存
-○ジャンルごとに一覧を作る
+○ジャンルごとに一覧で5位以降も出てくるようにする。

@@ -1,9 +1,9 @@
 = render 'layouts/header'
 .detail-main
   .detail-main__total
-    ゾンビ映画ランキング
+    総合映画ランキング
   .detail-main__content
-    - @zombie.first(5).each.with_index(1) do |post, i|
+    - @post.each.with_index(1) do |post, i|
       = link_to post_path(post.id) do
         .detail-main__content__each
           = i
