@@ -8,9 +8,10 @@ class PostsController < ApplicationController
     # @zombie = @post.genres
     # @zombie = Post.genres
     # @zombie = Genre.includes(:posts).where(id: 1)
-    # binding.pry
     # @genre = Genre.all
     # @posts = Post_genre.where(buyer: nil).order(id:“DESC”)
+    # @user_items = Item.where(saler: @user).includes(:images).order("created_at DESC")
+    @zombie = Post.joins(post_genres: :genre).includes(:images).where(genres: {id: 1}).order("likes_count DESC")
   end
 
   def show
@@ -22,6 +23,9 @@ class PostsController < ApplicationController
 
   def create
     Post.create(post_params)
+  end
+
+  def zombie
   end
 
   private

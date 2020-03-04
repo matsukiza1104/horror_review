@@ -1,3 +1,4 @@
+= render 'layouts/notifications'
 = render 'layouts/header'
 .aaa
 .main
@@ -17,13 +18,14 @@
   .main__zombie
     ゾンビ映画ランキング
   .main__content
-    - @post.first(5).each do |post|
-      .main__content__each
-        = image_tag post.images[0][:pic]
-        = post.title
-        %br
-        .main__content__each__favourite
-          いいね！数
+    - @zombie.first(5).each do |post|
+      = link_to post_path(post.id) do
+        .main__content__each
+          = image_tag post.images[0][:pic]
+          = post.title
+          %br
+          .main__content__each__favourite
+            いいね！数
   .main__murderer
     サイコ映画ランキング
   .main__content

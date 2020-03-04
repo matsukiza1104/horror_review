@@ -22,3 +22,10 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+あとしないといけない事
+○おすすめ映画のコメント機能
+○トップページのscss
+○デプロイ
+○seed.rbにDBデータ保存
+○ジャンルごとに一覧を作る

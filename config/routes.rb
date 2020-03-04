@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   get 'likes/destroy'
   devise_for :users
   root to: 'posts#index'
-  resources :posts, only: [:index, :show, :update] do
+  resources :posts, only: [:index, :show, :update, :zombie] do
     resources :comments, only: [:create]
     resources :likes, only: [:create, :destroy]
   end
