@@ -50,5 +50,6 @@ test:
 production:
   <<: *default
   database: horror_review_production
-  username: horror_review
-  password: <%= ENV['HORROR_REVIEW_DATABASE_PASSWORD'] %>
+  username: root
+  password: <%= ENV['DATABASE_PASSWORD'] %>
+  socket: /var/lib/mysql/mysql.sock
