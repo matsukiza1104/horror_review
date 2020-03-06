@@ -142,13 +142,9 @@ Genre.create!(
 )
 
 
-# INSERT INTO post_genre (post_id, genre_id) VALUES (1, 3);
+# INSERT INTO post_genres (post_id, genre_id) VALUES (1, 3);
 
 
-Post_genre.create!(
-  post_id: '1',
-  genre_id: '3',
-)
 # Post_genre.create!(
 #   post_id: '2',
 #   genre_id: '3',
