@@ -6,7 +6,6 @@ class CreatePosts < ActiveRecord::Migration[5.2]
       t.string :director
       t.string :country
       t.integer :year
-      t.timestamps
     end
   end
 end
