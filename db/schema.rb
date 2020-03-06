@@ -22,15 +22,11 @@ ActiveRecord::Schema.define(version: 2020_03_04_111228) do
 
   create_table "genres", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "genre"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
   end
 
   create_table "images", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "pic"
     t.integer "post_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
   end
 
   create_table "likes", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
@@ -45,8 +41,6 @@ ActiveRecord::Schema.define(version: 2020_03_04_111228) do
   create_table "post_genres", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.bigint "post_id"
     t.bigint "genre_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
     t.index ["genre_id"], name: "index_post_genres_on_genre_id"
     t.index ["post_id"], name: "index_post_genres_on_post_id"
   end
@@ -57,8 +51,6 @@ ActiveRecord::Schema.define(version: 2020_03_04_111228) do
     t.string "director"
     t.string "country"
     t.integer "year"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
     t.integer "likes_count"
   end
 
