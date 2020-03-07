@@ -5,12 +5,16 @@
         %i.material-icons.red-text お気に入りに追加しました 🧟‍♂️
         %span.red-text
         = post.likes_count
+        .aaaaa
+          = post.likes_count
   - else
     = link_to post_likes_path(post.id), method: :post, remote: true do
       .vertical_like
         %i.material-icons.grey-text.text-darken-2 お気に入りに追加する 👨 
         %span.grey-text.text-darken-2
         = post.likes_count
+        .aaaaa
+          = post.likes_count
 -# - else
 -#   - if post.likes_count > 0
 -#     .vertical_like

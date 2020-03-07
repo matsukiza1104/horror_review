@@ -19,6 +19,7 @@
       padding: 10px;
       &__title {
         font-size: 30px;
+        height: 45px;
         font-weight: bold;
         margin-bottom: 7px;
         &__date {
@@ -123,4 +124,11 @@
   background-color: red;
   color: white;
   text-align: center;
+}
+
+.aaaaa {
+  position: absolute;
+  top: 250px;
+  left: 790px;
+  font-size: 20px;
 }

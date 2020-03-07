@@ -13,7 +13,7 @@
           年制作の映画)
       .show__top-box__introduction__favourite
         お気に入り総数🧟‍♂️：
-        = @post.likes_count
+        -# = @post.likes_count
       .show__top-box__introduction__genre
         ジャンル：
         - @post.post_genres.each do |genre|
