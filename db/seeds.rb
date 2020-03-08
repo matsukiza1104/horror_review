@@ -78,6 +78,8 @@ Post.create!(
 )
 
 
+
+
 Post.create!(
   title: 'ドーン・オブ・ザ・デッド',
   story: 'アメリカのワシントン州エベレット。看護婦のアナ（サラ・ポーリー）は仕事を終えて帰った翌朝、人間たちが凶暴化し、機敏な動きで次々と人間を襲う光景を目にする。パニックに陥った彼女は、夢中で自動車に乗り込み、町を離れようとするが……。',
@@ -85,6 +87,9 @@ Post.create!(
   country: 'アメリカ',
   year: '2004',
 )
+Image.create!(
+  pic: 'https://iwiz-movies.c.yimg.jp/im_siggEMrfYWFzFqFn4fWCM1zZGg---x680/c/movies/pict/p/p/88/e0/142241_01.jpg',
+  post_id: '11',
 Post.create!(
   title: 'ハウス・オブ・ザ・デッド',
   story: 'アリシアたち5人の若者は、無人島で秘密のレイヴ・パーティーがあると聞き、島に上陸する。しかし会場には無残な死体の山が……。この島にはなぜかゾンビが生息し、人間たちを次々と襲っていたのだ。',
