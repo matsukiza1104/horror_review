@@ -3,13 +3,13 @@
   .detail-main__total
     ゾンビ映画ランキング
   .detail-main__content
-    - @zombie.first(5).each.with_index(1) do |post, i|
+    - @zombie.each.with_index(1) do |post, i|
       = link_to post_path(post.id) do
         .detail-main__content__each
           = i
           位👑
           = image_tag post.images[0][:pic]
-          = post.title.truncate(12)
+          = post.title.truncate(11)
           %br
           .detail-main__content__each__favourite
             お気に入り数
