@@ -7,10 +7,12 @@
 .main {
   padding: 80px 0 0;
   background-color: #eee;
-  height: 3600px;
+  height: 3700px;
   &__total {
-    font-size: 20px;
     text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
   }
   &__content {
     margin: 0 auto;
@@ -40,38 +42,56 @@
     }
   }
   &__zombie {
-    font-size: 20px;
-    text-align: center;
     margin-top: 30px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
   }
   &__murderer {
-    font-size: 20px;
-    text-align: center;
     margin-top: 30px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
   }
   &__thriller {
-    font-size: 20px;
-    text-align: center;
     margin-top: 30px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
   }
   &__monster {
-    font-size: 20px;
-    text-align: center;
     margin-top: 30px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
   }
   &__occult {
-    font-size: 20px;
-    text-align: center;
     margin-top: 30px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
   }
   &__japanese {
-    font-size: 20px;
-    text-align: center;
     margin-top: 30px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
   }
   &__grotesque {
-    font-size: 20px;
-    text-align: center;
     margin-top: 30px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
   }
+}
+img.pic-size {
+  height: 282px;
+  width: 200px;
 }

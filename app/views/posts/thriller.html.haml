@@ -8,7 +8,7 @@
         .detail-main__content__each
           = i
           位👑
-          = image_tag post.images[0][:pic]
+          = image_tag post.images[0][:pic], class: 'pic-size'
           = post.title.truncate(11)
           %br
           .detail-main__content__each__favourite

@@ -3,7 +3,13 @@ class PostsController < ApplicationController
   def index
     @post = Post.includes(:images).order("likes_count DESC")
     @zombie = Post.joins(post_genres: :genre).includes(:images).where(genres: {id: 1}).order("likes_count DESC")
-    @genre = Genre.all
+    @murderer = Post.joins(post_genres: :genre).includes(:images).where(genres: {id: 2}).order("likes_count DESC")
+    @thriller = Post.joins(post_genres: :genre).includes(:images).where(genres: {id: 3}).order("likes_count DESC")
+    @monster = Post.joins(post_genres: :genre).includes(:images).where(genres: {id: 4}).order("likes_count DESC")
+    @occult = Post.joins(post_genres: :genre).includes(:images).where(genres: {id: 5}).order("likes_count DESC")
+    @japanese = Post.joins(post_genres: :genre).includes(:images).where(genres: {id: 6}).order("likes_count DESC")
+    @grotesque = Post.joins(post_genres: :genre).includes(:images).where(genres: {id: 7}).order("likes_count DESC")
+    # @genre = Genre.all
   end
 
   def show
