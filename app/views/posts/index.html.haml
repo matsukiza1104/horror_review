@@ -52,75 +52,80 @@
   .main__thriller
     スリラー映画ランキング
   .main__content
-    - @post.first(5).each.with_index(1) do |post, i|
-      .main__content__each
-        = i
-        位👑
-        = image_tag post.images[0][:pic], class: 'pic-size'
-        = post.title.truncate(11)
-        %br
-        .main__content__each__favourite
-          お気に入り数
-          (
-          = post.likes_count
-          )
+    - @thriller.first(5).each.with_index(1) do |post, i|
+      = link_to post_path(post.id) do
+        .main__content__each
+          = i
+          位👑
+          = image_tag post.images[0][:pic], class: 'pic-size'
+          = post.title.truncate(11)
+          %br
+          .main__content__each__favourite
+            お気に入り数
+            (
+            = post.likes_count
+            )
   .main__monster
     モンスター映画ランキング
   .main__content
-    - @post.first(5).each.with_index(1) do |post, i|
-      .main__content__each
-        = i
-        位👑
-        = image_tag post.images[0][:pic], class: 'pic-size'
-        = post.title.truncate(11)
-        %br
-        .main__content__each__favourite
-          お気に入り数
-          (
-          = post.likes_count
-          )
+    - @monster.first(5).each.with_index(1) do |post, i|
+      = link_to post_path(post.id) do
+        .main__content__each
+          = i
+          位👑
+          = image_tag post.images[0][:pic], class: 'pic-size'
+          = post.title.truncate(11)
+          %br
+          .main__content__each__favourite
+            お気に入り数
+            (
+            = post.likes_count
+            )
   .main__occult
     オカルト映画ランキング
   .main__content
-    - @post.first(5).each.with_index(1) do |post, i|
-      .main__content__each
-        = i
-        位👑
-        = image_tag post.images[0][:pic], class: 'pic-size'
-        = post.title.truncate(11)
-        %br
-        .main__content__each__favourite
-          お気に入り数
-          (
-          = post.likes_count
-          )
+    - @occult.first(5).each.with_index(1) do |post, i|
+      = link_to post_path(post.id) do
+        .main__content__each
+          = i
+          位👑
+          = image_tag post.images[0][:pic], class: 'pic-size'
+          = post.title.truncate(11)
+          %br
+          .main__content__each__favourite
+            お気に入り数
+            (
+            = post.likes_count
+            )
   .main__japanese
     Jホラー映画ランキング
   .main__content
-    - @post.first(5).each.with_index(1) do |post, i|
-      .main__content__each
-        = i
-        位👑
-        = image_tag post.images[0][:pic], class: 'pic-size'
-        = post.title.truncate(11)
-        %br
-        .main__content__each__favourite
-          お気に入り数
-          (
-          = post.likes_count
-          )
+    - @japanese.first(5).each.with_index(1) do |post, i|
+      = link_to post_path(post.id) do
+        .main__content__each
+          = i
+          位👑
+          = image_tag post.images[0][:pic], class: 'pic-size'
+          = post.title.truncate(11)
+          %br
+          .main__content__each__favourite
+            お気に入り数
+            (
+            = post.likes_count
+            )
   .main__grotesque
     グロテスク映画ランキング
   .main__content
-    - @post.first(5).each.with_index(1) do |post, i|
-      .main__content__each
-        = i
-        位👑
-        = image_tag post.images[0][:pic], class: 'pic-size'
-        = post.title.truncate(11)
-        %br
-        .main__content__each__favourite
-          お気に入り数
-          (
-          = post.likes_count
-          )
+    - @grotesque.first(5).each.with_index(1) do |post, i|
+      = link_to post_path(post.id) do
+        .main__content__each
+          = i
+          位👑
+          = image_tag post.images[0][:pic], class: 'pic-size'
+          = post.title.truncate(11)
+          %br
+          .main__content__each__favourite
+            お気に入り数
+            (
+            = post.likes_count
+            )

@@ -3,7 +3,7 @@
   .detail-main__total
     Jホラー映画ランキング
   .detail-main__content
-    - @japanese.first(5).each.with_index(1) do |post, i|
+    - @japanese.each.with_index(1) do |post, i|
       = link_to post_path(post.id) do
         .detail-main__content__each
           = i

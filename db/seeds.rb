@@ -142,17 +142,6 @@ Image.create!(
   post_id: '12',
 )
 Post.create!(
-  title: 'アイアムアヒーロー',
-  story: '謎のウィルスが蔓延し、ZQN（ゾキュン）と呼ばれるゾンビだらけになった日本。漫画家アシスタントをしていた鈴木英雄は、標高の高い場所では感染しないという噂を聞いて富士山に向かいます。途中で出会った女子高生の比呂美、元看護師の藪と助け合うようになる英雄。彼らは生き延びることができるのでしょうか。',
-  director: '佐藤信介',
-  country: '日本',
-  year: '2015',
-)
-Image.create!(
-  pic: 'https://iwiz-movies.c.yimg.jp/im_sigg.1sV2COSbJ6HDKey7uzeew---x680/c/movies/pict/p/p/b6/b4/165471_01.jpg',
-  post_id: '13',
-)
-Post.create!(
   title: 'ワールド・ウォーZ',
   story: 'その日、ジェリー（ブラッド・ピット）と妻、２人の娘を載せた車は渋滞にはまっていた。一向に動かない車列に、これがいつもの交通渋滞でないことに気付くが、次の瞬間、背後から猛スピードで暴走するトラックが迫ってくる。必死で家族を守り、その場から逃げだしたジェリー。全世界では爆発的に拡大する“謎のウイルス”によって感染者は増加し続け、大混乱に陥っていた。元国連捜査官として世界各国を飛び回ったジェリーに事態を収束させるべく任務が下る。怯える家族のそばにいたいという思いと、世界を救わなければならないという使命の狭間で、ジェリーは究極の選択を迫られる。感染の速度は加速する一方で、人類に残された時間はわずかだった―。',
   director: 'マーク・フォースター',
@@ -161,7 +150,7 @@ Post.create!(
 )
 Image.create!(
   pic: 'https://2.bp.blogspot.com/-IltK9sNk_x4/Uf0PHBDV77I/AAAAAAABLTQ/DG12YYUfFZY/s1600/IMG_4258.JPG',
-  post_id: '14',
+  post_id: '13',
 )
 Post.create!(
   title: 'ブレインデッド',
@@ -172,7 +161,7 @@ Post.create!(
 )
 Image.create!(
   pic: 'https://iwiz-movies.c.yimg.jp/im_siggbAftCq4gqaHW_RAUj0p6dw---x680/c/movies/pict/p/p/83/72/134715_01.jpg',
-  post_id: '15',
+  post_id: '14',
 )
 Post.create!(
   title: '新感染 ファイナル・エクスプレス',
@@ -183,18 +172,7 @@ Post.create!(
 )
 Image.create!(
   pic: 'https://iwiz-movies.c.yimg.jp/im_siggnnrE7KEikwgDzwuqUhfa.w---x680/c/movies/pict/p/p/ed/89/172215_03.jpg',
-  post_id: '16',
-)
-Post.create!(
-  title: 'カメラを止めるな！',
-  story: 'とある自主映画の撮影隊が山奥の廃墟でゾンビ映画を撮影していた。本物を求める監督は中々OKを出さずテイクは42テイクに達する。そんな中、撮影隊に本物のゾンビが襲いかかる！大喜びで撮影を続ける監督、次々とゾンビ化していく撮影隊の面々。映画史をぬり変えるワンカットゾンビサバイバル！……を撮ったヤツらの話。',
-  director: '上田慎一郎',
-  country: '日本',
-  year: '2017',
-)
-Image.create!(
-  pic: 'https://iwiz-movies.c.yimg.jp/im_siggjTAPNKRZ8yGCOx4KkDcHfw---x680/c/movies/pict/p/p/6c/ce/174392_01.jpg',
-  post_id: '17',
+  post_id: '15',
 )
 Post.create!(
   title: 'バイオハザード II アポカリプス',
@@ -205,7 +183,7 @@ Post.create!(
 )
 Image.create!(
   pic: 'https://www.sonypictures.jp/themes/custom/spej/images/title-page/keyart/750238.jpg',
-  post_id: '18',
+  post_id: '16',
 )
 Post.create!(
   title: 'バイオハザード III',
@@ -216,7 +194,7 @@ Post.create!(
 )
 Image.create!(
   pic: 'https://images.ciatr.jp/2018/03/w_828/wv5d3Me4FIpoXr7D58ETxcisnC6WThEHkSJ4UqpY.jpeg',
-  post_id: '19',
+  post_id: '17',
 )
 Post.create!(
   title: 'バイオハザード IV アフターライフ',
@@ -227,9 +205,30 @@ Post.create!(
 )
 Image.create!(
   pic: 'https://iwiz-movies.c.yimg.jp/c/movies/pict/p/p/8b/33/153277_01.jpg',
+  post_id: '18',
+)
+Post.create!(
+  title: 'バイオハザードV リトリビューション',
+  story: 'アンブレラ社が開発したT－ウィルスが蔓延し、地球はアンデッドに覆い尽くされようとしていた。人類最後の希望であるアリスは、アンブレラ社に囚われ、ある極秘施設の中で目覚める。アリスはその巨大な施設から脱出しようとするが、気がつくと東京、ニューヨーク、モスクワなどの壊滅したはずの都市に移動している。実は、その施設には、世界を覆す驚くべき秘密が隠されていた。しかも、全ての背後には、アンブレラ社をも裏切った最凶の黒幕が・・・・・・。元仲間がアリスを攻撃し、かつての敵が手を差し伸べる。アリスは誰を信じ、何を疑えばいいのか？最終決戦に向けて、アリスの壮絶な戦いが始まる！',
+  director: 'ポール・W・S・アンダーソン',
+  country: 'アメリカ',
+  year: '2015',
+)
+Image.create!(
+  pic: 'https://iwiz-movies.c.yimg.jp/c/movies/pict/p/p/f8/00/157923_01.jpg',
+  post_id: '19',
+)
+Post.create!(
+  title: 'バイオハザード：ザ・ファイナル',
+  story: '「48時間で人類は滅びる」とレッドクイーンに告げられるアリス。彼女の前に絶望的な数のアンデッドが現れ地上を埋め尽くしていく。人類滅亡のカウントダウンが始まったのだ。アリスはすべての物語がはじまった地＝ラクーンシティへ戻る。世界をアンデッド化してきた宿敵アンブレラ社との壮絶なラストバトル。人類の命運はアリスに託された―。そして、ついに明かされるアリスの秘密―。',
+  director: 'ポール・W・S・アンダーソン',
+  country: 'アメリカ',
+  year: '2016',
+)
+Image.create!(
+  pic: 'https://iwiz-movies.c.yimg.jp/im_siggEySWb_sbD6MFxEkltMWl8Q---x680/c/movies/pict/p/p/2f/b3/162525_02.jpg',
   post_id: '20',
 )
-
 
 
 
@@ -262,25 +261,25 @@ Image.create!(
   post_id: '22',
 )
 Post.create!(
-  title: 'ヒメアノ～ル',
-  story: '平凡な毎日に焦りを感じながら、ビル清掃会社のパートタイマーとして働いている青年・岡田。ある日、同僚の先輩である安藤から、密かに思いを寄せるカフェ店員・ユカとの恋のキューピッド役を頼まれた彼は、ユカのカフェで高校時代の同級生・森田と再会することになる。その後、岡田はユカの口から、彼女が森田らしき人物からストーキングをされていることを知らされ、不穏な気持ちを抱き始める。かつて過酷ないじめを受けていた森田は、ある事件をきっかけに、欲望のままに無抵抗な相手を殺害していく快楽殺人者になっていたのだ……。',
-  director: '吉田恵輔',
-  country: '日本',
-  year: '2016',
+  title: 'ファニーゲーム U.S.A. ',
+  story: '別荘で過ごすアン（ナオミ・ワッツ）とジョージ（ティム・ロス）夫妻のもとに、ポール（マイケル・ピット）とピーター（ブラディ・コーベット）と名乗る青年が訪れる。ふてぶてしい訪問者の態度に業を煮やしたジョージがポールのほほを平手打ちすると、突然二人の男は凶暴な顔を見せ、生死をかけたゲームをしようと告げるが……。',
+  director: 'ミヒャエル・ハネケ',
+  country: 'アメリカ',
+  year: '2007',
 )
 Image.create!(
-  pic: 'https://stat.ameba.jp/user_images/20170715/15/crockwise/48/c8/j/o0600080013982872067.jpg?caw=800',
+  pic: 'https://see-saw.way-nifty.com/.shared/image.html?/photos/uncategorized/2013/06/05/funnygame1.jpg',
   post_id: '23',
 )
 Post.create!(
-  title: '凶悪',
-  story: '史上最悪の凶悪事件。その真相とは? ある日、雑誌『明朝24』の編集部に一通の手紙が届いた。それは獄中の死刑囚 (ピエール瀧)から届いた、まだ白日のもとにさらされていない殺人事件について の告発だった。彼は判決を受けた事件とはまた別に3件の殺人事件に関与してお り、その事件の首謀者は“先生”と呼ばれる人物(リリー・フランキー)であるこ と、“先生”はまだ捕まっていないことを訴える死刑囚。闇に隠れている凶悪事件 の告発に慄いた『明朝24』の記者・藤井(山田孝之)は、彼の証言の裏付けを取る うちに事件にのめり込んでいく……。',
-  director: '白石和彌',
-  country: '日本',
-  year: '2013',
+  title: 'アメリカン・サイコ',
+  story: '80年代のニューヨーク。27歳のハンサムなヤッピー、パトリック・ベイトマンは一流企業の副社長。高級マンションに住み、美しい婚約者もいる彼は一見誰もが羨む生活を送っていた。しかし、彼の心の中には深い闇が広がっており、突如襲う衝動に突き動かされ、夜の街をさまよいホームレスや娼婦を殺害していたのだった……。',
+  director: 'メアリー・ハロン',
+  country: 'アメリカ',
+  year: '2000',
 )
 Image.create!(
-  pic: 'https://images-fe.ssl-images-amazon.com/images/I/51FO7ArR9oL.jpg',
+  pic: 'https://iwiz-movies.c.yimg.jp/im_sigg0O7jKmfB99P1mq3iJu1yFg---x680/c/movies/pict/p/p/3f/89/136513_01.jpg',
   post_id: '24',
 )
 Post.create!(
@@ -317,14 +316,14 @@ Image.create!(
   post_id: '27',
 )
 Post.create!(
-  title: '冷たい熱帯魚',
-  story: '熱帯魚店を営んでいる社本と妻の関係はすでに冷え切っており、家庭は不協和音を奏でていた。ある日、彼は人当たりが良く面倒見のいい同業者の村田と知り合い、やがて親しく付き合うようになる。だが、実は村田こそが周りの人間の命を奪う連続殺人犯だと社本が気付いたときはすでに遅く、取り返しのつかない状況に陥っていた。',
-  director: '園子温',
-  country: '日本',
-  year: '2011',
+  title: 'サイコ',
+  story: '会社の金を横領した女が立ち寄ったベイツ・モーテル。そこには管理人の青年ノーマンと離れの一軒屋に住む年老いた“母”がいた……。',
+  director: 'アルフレッド・ヒッチコック',
+  country: 'アメリカ',
+  year: '1960',
 )
 Image.create!(
-  pic: 'https://iwiz-movies.c.yimg.jp/im_siggkncyQORnnTw0M1wc.UTjJA---x680/c/movies/pict/p/p/2c/d5/154789_01.jpg',
+  pic: 'https://images-na.ssl-images-amazon.com/images/I/510MVH85ZSL._AC_SY445_.jpg',
   post_id: '28',
 )
 Post.create!(
@@ -394,14 +393,14 @@ Image.create!(
   post_id: '34',
 )
 Post.create!(
-  title: '悪の教典',
-  story: '蓮実聖司は、生徒から“ハスミン”という愛称で呼ばれ、絶大な人気を誇る高校教師。 学校やＰＴＡの評価も高く、いわば「教師の鑑」とも呼べる存在だったが、それはすべて仮面に過ぎなかった。 彼は他人への共感能力をまったく持ち合わせていない、生まれながらのサイコパス（反社会性人格障害）だったのだ。 蓮実は自らの目的のためには、それが最善の策であれば、たとえ殺人でも厭わない。学校が抱える様々なトラブルや、自分の目的の妨げになる障害を取り除くために、いとも簡単に人を殺していく。 そして、いつしか周囲の人間を自由に操り、学校中を支配しつつあった。 だが、すべてが順調に進んでいた矢先、小さなほころびから自らの失敗が露呈してしまう。 それを隠滅するために考えた蓮実の解決策。 それは、クラスの生徒全員を惨殺することだった…。',
-  director: '三池崇史',
-  country: '日本',
-  year: '2012',
+  title: 'スクリーム',
+  story: 'カリフォルニアの田舎町、ウッズボローで殺人事件が起きた。高校生ケイシーが不気味な電話を受けた後、恋人と共に惨殺されたのである。同じ高校の女生徒シドニーもまた、その電話を受けていた。彼女はマスクを被った人物に襲われたが、駆けつけた恋人ビリーに助けられる。だがビリーは犯人として疑われ、逮捕されてしまった。しかし、またもシドニーに不気味な電話がかかってきたのだ……。',
+  director: 'ウェス・クレイヴン',
+  country: 'アメリカ',
+  year: '1996',
 )
 Image.create!(
-  pic: 'https://iwiz-movies.c.yimg.jp/im_siggTs9PWgZfq4pwRs0zZkEqag---x680/c/movies/pict/p/p/8d/58/159167_01.jpg',
+  pic: 'https://images.ciatr.jp/2018/03/w_828/qexkXObR6I90KCNC3q6SepZa4Q87S9lkchdewxiJ.jpeg',
   post_id: '35',
 )
 Post.create!(
@@ -1179,212 +1178,212 @@ Image.create!(
   post_id: '101',
 )
 Post.create!(
-  title: '',
-  story: '',
-  director: '',
+  title: 'オーディション',
+  story: 'ビデオ制作会社を経営している青山は7年前に妻を亡くし、一人息子の重彦と寂しい日々を過ごしていた。そんなある日、青山の身の上を案じた友人の吉川は青山にとんでもない提案をする。それは映画制作と称したオーディションを開催し、その中から再婚相手を探せというものだった。そして4000通もの応募の中から選んだ女性、麻美に加速度的に魅了されていく青山。しかし彼女の愛は余りにも真っ直ぐで完全なものだった……。',
+  director: '三池崇史',
   country: '日本',
-  year: '20',
+  year: '2000',
 )
 Image.create!(
-  pic: '',
+  pic: 'https://images-na.ssl-images-amazon.com/images/I/81BQJaStpKL._AC_SY445_.jpg',
   post_id: '102',
 )
 Post.create!(
-  title: '',
-  story: '',
-  director: '',
+  title: '仄暗い水の底から',
+  story: ' 松原淑美は自分の幼い日々を思い出す。それは幼稚園のころそれぞれの親が迎えにくるなか、自分だけ取り残される姿。淑美の母は自分勝手だった。淑美は家庭を大切にし、子を思う母になろうと決心している。しかし現実には夫とうまく行かず離婚調停中。だが頑なに子供を思う気持ちだけは持っている。親権を主張し、自立するため新居探しを始め、淑美と娘の郁子は「なにか」を感じるマンションに行き当たる。室内の湿気、水道水の不気味さ、雨漏り、子供の足音。二人で住みはじめたある日、郁子が屋上で赤い子供用のバックを見つけた。',
+  director: '中田秀夫',
   country: '日本',
-  year: '20',
+  year: '2001',
 )
 Image.create!(
-  pic: '',
+  pic: 'https://images-na.ssl-images-amazon.com/images/I/71q%2BzkYNxdL._AC_SL1500_.jpg',
   post_id: '103',
 )
 Post.create!(
-  title: '',
-  story: '',
-  director: '',
+  title: 'リング',
+  story: 'テレビレポーターの浅川玲子は、見たら一週間後に死ぬというビデオテープの噂を耳にする。にわかには信じられない玲子だったが、姪の死をきっかけにビデオについて調べ始める。やがて、偶然手に入れた問題のビデオを確認のため見た玲子は、その内容に、噂が本当であることを確信する。が、それは7日後の自分の死を意味した……。',
+  director: '中田秀夫',
   country: '日本',
-  year: '20',
+  year: '1998',
 )
 Image.create!(
-  pic: '',
+  pic: 'https://iwiz-movies.c.yimg.jp/im_siggLUo9QrkBF_wKf6gpbWvD1Q---x680/c/movies/pict/p/p/3d/bc/115984_01.jpg',
   post_id: '104',
 )
 Post.create!(
-  title: '',
-  story: '',
-  director: '',
+  title: '呪怨',
+  story: 'ある日、介護ボランティアをする女子大生の仁科理佳は、寝たきりの老婆・徳永幸枝の様子を見るためその家を訪れた。理佳は何か不気味な雰囲気を感じつつも家の中へと入っていく。悪臭が漂い物が散乱する中を進み、一階の薄暗い部屋で幸枝を発見する理佳だったが…。数日前、幸枝の息子・勝也が帰宅すると妻が倒れていた。この家に引っ越して以来、一家は不吉なことに見舞われ続けていた。やがて勝也の妹・仁美が不審に思いこの家にやって来るが、どこか様子のおかしい勝也に門前払いされてしまう。これを機に、仁美にも不吉なことが憑きまとうようになり…。',
+  director: '清水崇',
   country: '日本',
-  year: '20',
+  year: '2002',
 )
 Image.create!(
-  pic: '',
+  pic: 'https://iwiz-movies.c.yimg.jp/im_sigg_HvZA7FprwS61Df3C1985Q---x680/c/movies/pict/p/p/69/e6/139619_01.jpg',
   post_id: '105',
 )
 Post.create!(
-  title: '',
-  story: '',
-  director: '',
+  title: '着信アリ',
+  story: '＜来る。＞ある日、友人の携帯に届いた奇妙なメッセージ。そこには、その友人の声で身の毛もよだつような悲鳴が録音されていた。発信者の番号は友人本人の番号。着信時刻は３日後の時刻。その場はいたずらだと軽く片付けたが、数日後その友人は録音とまったく同じ悲鳴をあげて着信時刻に死んだ。同様のことが次々起こる。携帯を通じて伝播する死の予告。そして、とうとう自分の携帯が鳴った…',
+  director: '三池崇史',
   country: '日本',
-  year: '20',
+  year: '2004',
 )
 Image.create!(
-  pic: '',
+  pic: 'https://iwiz-movies.c.yimg.jp/im_siggnRqa2raHGYWPaaD2x25OVg---x680/c/movies/pict/p/p/ee/63/141201_01.jpg',
   post_id: '106',
 )
 Post.create!(
-  title: '',
-  story: '',
-  director: '',
+  title: '震える舌',
+  story: '破傷風の女の子と両親の、病魔との闘いを描いたヒューマン・ドラマ。埋め立て地での泥遊びにより破傷風となってしまった女の子。死亡率が非常に高く、光、音などの刺激により激しい痙攣を引き起こすこの病気の看病は非常に困難で、母親は、その疲労により徐々に精神を蝕まれていく……。',
+  director: '野村芳太郎',
   country: '日本',
-  year: '20',
+  year: '1980',
 )
 Image.create!(
-  pic: '',
+  pic: 'https://iwiz-movies.c.yimg.jp/im_siggsbThrA3NrEHVVyyRWUj0_Q---x680/c/movies/pict/p/p/1c/e0/133804_01.jpg',
   post_id: '107',
 )
 Post.create!(
-  title: '',
-  story: '',
-  director: '',
+  title: '貞子vs伽椰子',
+  story: '「リング」シリーズ 貞子ＶＳ「呪怨」シリーズ 伽椰子。日本ホラー史上最大の歴史的スーパープロジェクト始動！決して出会ってはいけない2つの「呪い」が絡まる時、世紀の最恐対決がはじまる！',
+  director: '白石晃士',
   country: '日本',
-  year: '20',
+  year: '2016',
 )
 Image.create!(
-  pic: '',
+  pic: 'https://iwiz-movies.c.yimg.jp/im_siggo0aa.UK2_bQz_uBNRN9oNw---x680/c/movies/pict/p/p/7f/c1/169346_02.jpg',
   post_id: '108',
 )
 Post.create!(
-  title: '',
-  story: '',
-  director: '',
+  title: 'クロユリ団地',
+  story: '老朽化したクロユリ団地へと移り住んできた明日香（前田敦子）は、隣室から聞こえる何かを引っかくような音にへきえきしていた。ある日、鳴りやまない目覚まし時計の音を発端に、隣室で亡くなっている老人を見つけてしまう。それを機に周囲で頻発する怪現象に対する恐怖、老人を救えなかったという罪悪感から、精神的疲労を募らせていく明日香。老人が何かを伝えようとして音を立てていたのではないかと思った彼女は、遺品整理で隣室を訪れる特殊清掃員・笹原（成宮寛貴）とその真意を探ろうとするが。',
+  director: '中田秀夫',
   country: '日本',
-  year: '20',
+  year: '2013',
 )
 Image.create!(
-  pic: '',
+  pic: 'https://images-na.ssl-images-amazon.com/images/I/81jGew-wzaL._AC_SY445_.jpg',
   post_id: '109',
 )
 Post.create!(
-  title: '',
-  story: '',
-  director: '',
+  title: 'ヒメアノ～ル',
+  story: '平凡な毎日に焦りを感じながら、ビル清掃会社のパートタイマーとして働いている青年・岡田。ある日、同僚の先輩である安藤から、密かに思いを寄せるカフェ店員・ユカとの恋のキューピッド役を頼まれた彼は、ユカのカフェで高校時代の同級生・森田と再会することになる。その後、岡田はユカの口から、彼女が森田らしき人物からストーキングをされていることを知らされ、不穏な気持ちを抱き始める。かつて過酷ないじめを受けていた森田は、ある事件をきっかけに、欲望のままに無抵抗な相手を殺害していく快楽殺人者になっていたのだ……。',
+  director: '吉田恵輔',
   country: '日本',
-  year: '20',
+  year: '2016',
 )
 Image.create!(
-  pic: '',
+  pic: 'https://stat.ameba.jp/user_images/20170715/15/crockwise/48/c8/j/o0600080013982872067.jpg?caw=800',
   post_id: '110',
 )
 Post.create!(
-  title: '',
-  story: '',
-  director: '',
+  title: '凶悪',
+  story: '史上最悪の凶悪事件。その真相とは? ある日、雑誌『明朝24』の編集部に一通の手紙が届いた。それは獄中の死刑囚 (ピエール瀧)から届いた、まだ白日のもとにさらされていない殺人事件について の告発だった。彼は判決を受けた事件とはまた別に3件の殺人事件に関与してお り、その事件の首謀者は“先生”と呼ばれる人物(リリー・フランキー)であるこ と、“先生”はまだ捕まっていないことを訴える死刑囚。闇に隠れている凶悪事件 の告発に慄いた『明朝24』の記者・藤井(山田孝之)は、彼の証言の裏付けを取る うちに事件にのめり込んでいく……。',
+  director: '白石和彌',
   country: '日本',
-  year: '20',
+  year: '2013',
 )
 Image.create!(
-  pic: '',
+  pic: 'https://images-fe.ssl-images-amazon.com/images/I/51FO7ArR9oL.jpg',
   post_id: '111',
 )
 Post.create!(
-  title: '',
-  story: '',
-  director: '',
+  title: 'ミュージアム',
+  story: '雨の日に起きる連続猟奇殺人事件。犯行現場に残された謎のメモ、そして見つけられることを前提としたかのような死体。犯人はカエルのマスクを被った通称・カエル男。事件の関連性に気付いた沢村刑事が捜査を進めると、驚愕の次のターゲットが浮かび上がる。カエル男の次のターゲットとは…。犯人を追うはずの沢村が、逆に絶望的な状況に追い詰められて行く。果たして、カエル男の真の目的とは…？',
+  director: '大友啓史',
   country: '日本',
-  year: '20',
+  year: '2016',
 )
 Image.create!(
-  pic: '',
+  pic: 'https://iwiz-movies.c.yimg.jp/im_siggIn_I0_Yc9.xttfayAZm4Ww---x680/c/movies/pict/p/p/ed/61/169179_03.jpg',
   post_id: '112',
 )
 Post.create!(
-  title: '',
-  story: '',
-  director: '',
+  title: 'アイアムアヒーロー',
+  story: '謎のウィルスが蔓延し、ZQN（ゾキュン）と呼ばれるゾンビだらけになった日本。漫画家アシスタントをしていた鈴木英雄は、標高の高い場所では感染しないという噂を聞いて富士山に向かいます。途中で出会った女子高生の比呂美、元看護師の藪と助け合うようになる英雄。彼らは生き延びることができるのでしょうか。',
+  director: '佐藤信介',
   country: '日本',
-  year: '20',
+  year: '2015',
 )
 Image.create!(
-  pic: '',
+  pic: 'https://iwiz-movies.c.yimg.jp/im_sigg.1sV2COSbJ6HDKey7uzeew---x680/c/movies/pict/p/p/b6/b4/165471_01.jpg',
   post_id: '113',
 )
 Post.create!(
-  title: '',
-  story: '',
-  director: '',
+  title: 'カメラを止めるな！',
+  story: 'とある自主映画の撮影隊が山奥の廃墟でゾンビ映画を撮影していた。本物を求める監督は中々OKを出さずテイクは42テイクに達する。そんな中、撮影隊に本物のゾンビが襲いかかる！大喜びで撮影を続ける監督、次々とゾンビ化していく撮影隊の面々。映画史をぬり変えるワンカットゾンビサバイバル！……を撮ったヤツらの話。',
+  director: '上田慎一郎',
   country: '日本',
-  year: '20',
+  year: '2017',
 )
 Image.create!(
-  pic: '',
+  pic: 'https://iwiz-movies.c.yimg.jp/im_siggjTAPNKRZ8yGCOx4KkDcHfw---x680/c/movies/pict/p/p/6c/ce/174392_01.jpg',
   post_id: '114',
 )
 Post.create!(
-  title: '',
-  story: '',
-  director: '',
+  title: '冷たい熱帯魚',
+  story: '熱帯魚店を営んでいる社本と妻の関係はすでに冷え切っており、家庭は不協和音を奏でていた。ある日、彼は人当たりが良く面倒見のいい同業者の村田と知り合い、やがて親しく付き合うようになる。だが、実は村田こそが周りの人間の命を奪う連続殺人犯だと社本が気付いたときはすでに遅く、取り返しのつかない状況に陥っていた。',
+  director: '園子温',
   country: '日本',
-  year: '20',
+  year: '2011',
 )
 Image.create!(
-  pic: '',
+  pic: 'https://iwiz-movies.c.yimg.jp/im_siggkncyQORnnTw0M1wc.UTjJA---x680/c/movies/pict/p/p/2c/d5/154789_01.jpg',
   post_id: '115',
 )
 Post.create!(
-  title: '',
-  story: '',
-  director: '',
+  title: '悪の教典',
+  story: '蓮実聖司は、生徒から“ハスミン”という愛称で呼ばれ、絶大な人気を誇る高校教師。 学校やＰＴＡの評価も高く、いわば「教師の鑑」とも呼べる存在だったが、それはすべて仮面に過ぎなかった。 彼は他人への共感能力をまったく持ち合わせていない、生まれながらのサイコパス（反社会性人格障害）だったのだ。 蓮実は自らの目的のためには、それが最善の策であれば、たとえ殺人でも厭わない。学校が抱える様々なトラブルや、自分の目的の妨げになる障害を取り除くために、いとも簡単に人を殺していく。 そして、いつしか周囲の人間を自由に操り、学校中を支配しつつあった。 だが、すべてが順調に進んでいた矢先、小さなほころびから自らの失敗が露呈してしまう。 それを隠滅するために考えた蓮実の解決策。 それは、クラスの生徒全員を惨殺することだった…。',
+  director: '三池崇史',
   country: '日本',
-  year: '20',
+  year: '2012',
 )
 Image.create!(
-  pic: '',
+  pic: 'https://iwiz-movies.c.yimg.jp/im_siggTs9PWgZfq4pwRs0zZkEqag---x680/c/movies/pict/p/p/8d/58/159167_01.jpg',
   post_id: '116',
 )
 Post.create!(
-  title: '',
-  story: '',
-  director: '',
+  title: '黒い家',
+  story: '保険会社に勤める若槻慎二は保険金の説明に訪れた女性の家でその女性の息子の首吊り死体に遭遇する。警察は自殺と判断し、それに基づいて保険金も支払われることになった。しかし、両親の態度に不審なものを感じた若槻は自殺に疑問を感じひとり調査を開始する。そして、夫婦の保険金をめぐる異常な行動が次第に明らかになっていく……。',
+  director: '森田芳光',
   country: '日本',
-  year: '20',
+  year: '1999',
 )
 Image.create!(
-  pic: '',
+  pic: 'https://iwiz-movies.c.yimg.jp/im_siggsraMTP0.OU75ZEF2VwCS7Q---x680/c/movies/pict/p/p/c5/0d/133589_01.jpg',
   post_id: '117',
 )
 Post.create!(
-  title: '',
-  story: '',
-  director: '',
+  title: 'ノロイ',
+  story: '2004年に、怪奇実話作家の男性の家が全焼した。燃えた家の中で、妻の焼死体が見つかる。しかし、作家の男性は行方をくらましたらしい。作家の男性は、呪いという作品を作り上げたばかりだった。一体どんな関係があるのか……どうして家が燃えてしまったのか。',
+  director: '白石晃士',
   country: '日本',
-  year: '20',
+  year: '2005',
 )
 Image.create!(
-  pic: '',
+  pic: 'https://images-na.ssl-images-amazon.com/images/I/51RkWnmv52L._AC_SY445_.jpg',
   post_id: '118',
 )
 Post.create!(
-  title: '',
-  story: '',
-  director: '',
+  title: 'らせん',
+  story: '息子を海の事故で亡くした医師・安藤は、自身も死ぬことを考えていた。そんなとき、死んだ友人を司法解剖したことから、謎のウイルスを巡る事件に巻き込まれる',
+  director: '飯田譲治',
   country: '日本',
-  year: '20',
+  year: '1998',
 )
 Image.create!(
-  pic: '',
+  pic: 'https://iwiz-movies.c.yimg.jp/im_siggnvlzMPFn.vYf73V.Ot5mGA---x680/c/movies/pict/p/p/9f/3c/115985_01.jpg',
   post_id: '119',
 )
 Post.create!(
-  title: '',
-  story: '',
-  director: '',
+  title: '口裂け女',
+  story: 'かつて日本中の子どもたちを恐怖に陥れた口裂け女の噂が生まれた町で、再びその噂が流れはじめる。やがて噂は現実となり、町の子どもたちが次々と姿を消していく。自身が担任を務めるクラスの生徒・美佳を目の前で連れ去られてしまった教師・京子は、同僚の松崎と共に調査を開始するが……。',
+  director: '白石晃士',
   country: '日本',
-  year: '20',
+  year: '2007',
 )
 Image.create!(
-  pic: '',
+  pic: 'https://images-na.ssl-images-amazon.com/images/I/51E9oZp3DFL._AC_SY400_.jpg',
   post_id: '120',
 )
 
@@ -1397,100 +1396,229 @@ Image.create!(
 
 
 
+# グロテスク映画
 
+Post.create!(
+  title: 'マーターズ',
+  story: '10歳ルーシーは、監禁され虐待されていた 人里離れた倉庫から、逃げ出す。がその心の傷跡は深く、彼女を受け入れた孤児院で恐ろしい悪夢に悩まされる。彼女の唯一の心の安らぎは、同じ年齢のアンナだった。約 10年後 ルーシーは、彼女を監禁していた一家を見つけ出す。そして、アンナと共に、この悪夢を終わらせる為、復讐へと向かう。',
+  director: 'ケヴィン・ゴーツ/マイケル・ゴーツ',
+  country: 'アメリカ',
+  year: '2015',
+)
+Image.create!(
+  pic: 'https://images-na.ssl-images-amazon.com/images/I/81Z2uPJSeEL._AC_SL1426_.jpg',
+  post_id: '121',
+)
+Post.create!(
+  title: 'グロテスク',
+  story: '会社の同僚である和男（川連廣明）とアキ（長澤つぐみ）は、初めてのデートで喫茶店を出たところを何者かに拉致される。気が付くと二人はどこかの薄暗い部屋の中で口には猿ぐつわをされ、体は台に縛りつけられていた。そして彼らの目の前には、見知らぬ巨漢の男（大迫茂生）が立っており、次々と多種多様な拷問具らしきものが運び込まれ……。',
+  director: '白石晃士',
+  country: '日本',
+  year: '2008',
+)
+Image.create!(
+  pic: 'https://eiga.k-img.com/images/movie/54329/photo/e41ac248f869899d/320.jpg?1495098278',
+  post_id: '122',
+)
+Post.create!(
+  title: 'グリーン・インフェルノ',
+  story: '環境保護を訴える活動をしている学生グループたちはアマゾンの森林伐採の不正を暴くために現地を訪れる。しかし、彼らの過激な活動は問題視され、強制送還されてしまう。不運にも帰路についた飛行機にエンジントラブルが発生。あえなく彼らの乗った飛行機は、熱帯雨林に墜落してしまう。生き残った学生たちは助けを求めるのだが、そこにいたのは人間を食べる習慣をもつ食人族だった…。捕らわれた彼らは一人、また一人と喰われていく―。',
+  director: 'イーライ・ロス',
+  country: 'アメリカ',
+  year: '2015',
+)
+Image.create!(
+  pic: 'https://iwiz-movies.c.yimg.jp/im_siggHV.fli62_K4GH1xQGnMYVg---x680/c/movies/pict/p/p/12/2d/164285_02.jpg',
+  post_id: '123',
+)
+Post.create!(
+  title: 'ムカデ人間',
+  story: 'シャム双生児分離手術の専門医として活躍した外科医が、生涯の夢だった人間同士をつなぎ合わせて“人間ムカデ”を作り上げようとするインモラル・ムービー。',
+  director: 'トム・シックス',
+  country: 'オランダ/イギリス',
+  year: '2009',
+)
+Image.create!(
+  pic: 'https://iwiz-movies.c.yimg.jp/im_sigg6BzCHv6nnzBT4a.zwW9giQ---x680/c/movies/pict/p/p/0b/49/156392_01.jpg',
+  post_id: '124',
+)
+Post.create!(
+  title: 'ムカデ人間2',
+  story: 'ロンドンの地下駐車場で夜間警備員として働く中年男のマーティンは、映画「ムカデ人間」のDVDを繰り返し見ては、自分も“ムカデ人間”をつくりたいという欲望にかきたてられる。マーティンは、駐車場で目をつけた男女を次々と拉致して倉庫に監禁。邪悪な計画を進めていく。',
+  director: 'トム・シックス',
+  country: 'オランダ/イギリス',
+  year: '2010',
+)
+Image.create!(
+  pic: 'https://iwiz-movies.c.yimg.jp/im_siggbA_DQQSQVByLx2GAUMZyLA---x680/c/movies/pict/p/p/eb/7f/159833_01.jpg',
+  post_id: '125',
+)
+Post.create!(
+  title: 'ムカデ人間3',
+  story: '底なしの狂気、欲望無限大！刑務所の所長ビル・ボス(ディーター・ラーザー)は問題を抱えていた。彼の刑務所は、暴動数、医療費、離職率が全 米一で、見かねた州知事(エリック・ロバーツ)から「このままでは解雇する」と最後通告を受けていたのだ。ビルは囚人たちを手なずけるために、あらゆる方策を試すが、うまくいかない。そんなある日、ビルは忠実なる右腕のドワイト(ローレンス・ハーヴェイ)から、アメリカの刑務所システムに革命を起こし、何十億ドルを削減できる夢のようなアイディアを提案される。それは「ムカデ人間」と呼ばれる映画に基づいたアイディアで、文字通り、囚人たちを“ひざまずかせ”、究極の罰と抑止力を与えるというものだった!つなげてしまえば、食費だってたったの1人分!ビルとドワイトは、500人の囚人をつなげ、ムカデ囚人を作ろうと動き出すのだった...。',
+  director: 'トム・シックス',
+  country: 'アメリカ',
+  year: '2014',
+)
+Image.create!(
+  pic: 'https://iwiz-movies.c.yimg.jp/im_siggUfYWiN6EsQqDDLbYQW083w---x680/c/movies/pict/p/p/89/66/167724_02.jpg',
+  post_id: '126',
+)
+Post.create!(
+  title: 'ソウ',
+  story: '猟奇殺人鬼が命の大切さを学ばせようと、命を粗末にしている二人を拉致する。二人は生き残りをかけたゲームに参加させられ、助かるためには戦うか、さもなくば殺されてしまうという…。',
+  director: 'ジェームズ・ワン',
+  country: 'アメリカ',
+  year: '2004',
+)
+Image.create!(
+  pic: 'https://coni-tablog.com/wp-content/uploads/2018/05/20111012044349.jpg',
+  post_id: '127',
+)
+Post.create!(
+  title: 'ソウ2',
+  story: '目覚めたら出口の無い館に閉じ込められていた８人。ジグソウの囚人たちが新しいゲームに臨んでいた。ゲーム開始と共に遅効性の毒ガスが館内をめぐっていく。２時間以内にゲームに勝ち、解毒剤入り注射器を手に入れないと死んでしまう。８人は注射器を手に入れられるのか？一方、刑事エリックはジグソウを捕まえる。ジグソウは動揺もせず、エリックと二人で話すことを要求。なんと、エリックの息子はジグソウに監禁されていた。',
+  director: 'ダーレン・リン・バウズマン',
+  country: 'アメリカ',
+  year: '2005',
+)
+Image.create!(
+  pic: 'https://iwiz-movies.c.yimg.jp/im_siggOw45xECEUGzowfOJJdY_RA---x680/c/movies/pict/p/p/c4/99/144364_01.jpg',
+  post_id: '128',
+)
+Post.create!(
+  title: 'ソウ3',
+  story: '息子を交通事故で亡くしたジェフは、目覚めると食肉工場の地下室にいた。扉を開けると、鎖につながれた３人の男女。貯蔵庫には、息子を飲酒運転でひき殺した男。解体場には、犯人に軽罪しか与えなかった判事。冷凍室には、ひき逃げを目撃しながら証言しなかった女。・・俺は、息子を殺した人間たちを処刑するのか？一方、医者のリンは病院でのシフトを終えた直後誘拐され、連れて行かれた地下室で、死の瀬戸際のジグソウと会う―。',
+  director: 'ダーレン・リン・バウズマン',
+  country: 'アメリカ',
+  year: '2006',
+)
+Image.create!(
+  pic: 'https://iwiz-movies.c.yimg.jp/im_siggGlQwNTxDjx2VAFjqQwhFwQ---x680/c/movies/pict/p/p/64/ff/146311_01.jpg',
+  post_id: '129',
+)
+Post.create!(
+  title: 'ソウ4',
+  story: 'ジグソウと弟子アマンダは死んだ。ジグソウ最後のゲーム現場でパズルを解こうと奮闘するホフマン刑事。ケリー刑事殺害のニュースを聞いたＦＢＩからストラム捜査官とペレス捜査官も駆けつける。しかしその頃、ジグソウに関わって唯一生き残っていたＳＷＡＴのリッグ刑事が、新たなゲームに強制参加させられていた。与えられた時間は９０分。すべての罠をクリアして旧友を救うことが出来るのか、それとも地獄の結末を迎えるのか―。',
+  director: 'ダーレン・リン・バウズマン',
+  country: 'アメリカ',
+  year: '2007',
+)
+Image.create!(
+  pic: 'https://iwiz-movies.c.yimg.jp/im_siggT4qwkm.OPHoIu8QnM90tZQ---x680/c/movies/pict/p/p/b2/44/147767_01.jpg',
+  post_id: '130',
+)
+Post.create!(
+  title: 'ソウ5',
+  story: '九死に一生を得て助かったＦＢＩ捜査官ストラムは、傷一つ負わずにゲームから生き残ったホフマン刑事こそジグソウの後継者ではないかと疑う。一方、ジグソウ生前に弁護士に預けられた遺言と、遺品を見て衝撃に襲われるジグゾウの元妻、ジル。そして、コンクリートの床の上で５人の男女が目覚めると、犬の首輪に繋がれ、V字型の大きな刃がセットされていた・・・。新しいゲームの仕掛け人は、果たして誰なのか？',
+  director: 'デヴィッド・ハックル',
+  country: 'アメリカ',
+  year: '2008',
+)
+Image.create!(
+  pic: 'https://i.pinimg.com/originals/82/91/34/82913426a579e1906dee336178a7304f.jpg',
+  post_id: '131',
+)
+Post.create!(
+  title: 'ソウ6',
+  story: 'FBI捜査官のストラムが死体となって発見される。ジグソウ（トビン・ベル）の後継者はストラムではないかとの風評が広まり、ジグソウの事件が終結したかに見える中、ストラムの上司だったエリクソン（マーク・ロルストン）は捜査結果に疑問を抱く。そして、ホフマン刑事（コスタス・マンディロア）に近づくが……。',
+  director: 'ケヴィン・グルタート',
+  country: 'アメリカ',
+  year: '2009',
+)
+Image.create!(
+  pic: 'https://iwiz-movies.c.yimg.jp/im_siggzdl1HRuedgt_w0AmU5XuTQ---x680/c/movies/pict/p/p/47/5c/152343_01.jpg',
+  post_id: '132',
+)
+Post.create!(
+  title: 'ソウ ザ・ファイナル 3D',
+  story: '世界的ヒットを記録した人気ホラーシリーズの第7弾にして完結編が、シリーズ初となる3D映像で登場。前作に続きケビン・グルタートが監督を務める。ジグソウのゲームの生存者たちは、同じくゲームから生還した“精神的指導者”ボビー・デイガンの元に救いを求めて集まる。だが、ボビーの暗い過去が明らかになるにつれ、新たな恐怖が彼らを襲う。一方ホフマンとジルは、ジグソウの遺品をめぐって争いを繰り広げており……。',
+  director: 'ケビン・グルタート',
+  country: 'アメリカ',
+  year: '2010',
+)
+Image.create!(
+  pic: 'https://iwiz-movies.c.yimg.jp/im_siggAkNCXXNw_gDN1O1AkxYsGQ---x680/c/movies/pict/p/p/8c/91/154851_01.jpg',
+  post_id: '133',
+)
+Post.create!(
+  title: 'ジグソウ：ソウ・レガシー',
+  story: '密室に集められた５人の男女。頭には目の部分がくり貫かれたバケツが被せられ、身体には鎖が繋がれている。その鎖は対面する壁に繋がっており、壁には一面に丸鋸刃(まるのこは)が付いている。“さあゲームをしよう、お前たちは嘘をついてきた罪を告白せよ、真実のみがお前らを自由にする生きるか死ぬか、お前たち次第だ”ゲームは始まった･･･',
+  director: 'マイケル・スピエリッグ/ピーター・スピエリッグ',
+  country: 'アメリカ',
+  year: '2017',
+)
+Image.create!(
+  pic: 'https://iwiz-movies.c.yimg.jp/im_siggHRpNqD0CQcmFY0wtt_BMDA---x680/c/movies/pict/p/p/ed/d3/173654_02.jpg',
+  post_id: '134',
+)
+Post.create!(
+  title: 'ハンニバル',
+  story: '全米を震撼させたバッファロー・ビル事件から10年。レクター博士のヒントで犯人を逮捕したクラリスは、FBIのベテラン捜査官となっていた。しかし、麻薬密売人イベルダの逮捕の際、激しい銃撃戦の末に彼女を射殺したクラリスは、マスコミの非難を浴びFBI内部でも厳しい追求を受ける。一方、レクター博士はイタリアに渡り、“フェル”博士としてフィレンツェの名家の蔵書を司る職に就いていた。',
+  director: 'リドリー・スコット',
+  country: 'アメリカ',
+  year: '2001',
+)
+Image.create!(
+  pic: 'https://image.tmdb.org/t/p/original/yTP32Qjv9okqZPcqHBSquPGbbeI.jpg',
+  post_id: '135',
+)
+Post.create!(
+  title: '八仙飯店之人肉饅頭',
+  story: 'マカオで実際に起きた猟奇事件を、凄惨なスプラッター描写満載で描いたカニバリズムホラー。1986年、マカオの海岸でバラバラ死体が発見された。腐敗が進んでいたために警察の捜査は難航したが、やがて死体の身元が判明し、八仙飯店の店主ウォンが容疑者として逮捕される。壮絶な取り調べの末に自白に追い込まれたウォンは、元の店主チェン一家を皆殺しにして店を乗っ取ったことや、彼らの死体をミンチにしてつくった饅頭を客に食わせていたことを告白しはじめる。',
+  director: 'ハーマン・ヤオ',
+  country: '香港',
+  year: '1993',
+)
+Image.create!(
+  pic: 'https://images-na.ssl-images-amazon.com/images/I/71TTzARQpvL._AC_SY445_.jpg',
+  post_id: '136',
+)
+Post.create!(
+  title: 'ドリーム・ホーム',
+  story: '香港、ビクトリア・ハーバー沿いに立つ高級高層マンションで警備員が絞殺される。その後もマンションの住民に対して惨劇を繰り返す犯人は、金融機関に勤めるチェンだった。ごく普通のOLに過ぎないチェンが猟奇的な犯行を繰り返す裏には、香港人の給与と高騰する地価という不条理な社会状況が大きく関与していた。',
+  director: 'パン・ホーチョン',
+  country: '香港',
+  year: '2010',
+)
+Image.create!(
+  pic: 'https://iwiz-movies.c.yimg.jp/im_siggtKKfy3z86hi4e0l2FzJgoA---x680/c/movies/pict/p/p/b3/9f/156270_01.jpg',
+  post_id: '137',
+)
+Post.create!(
+  title: 'ヘル・レイザー',
+  story: '四次元の世界をつなぐ謎の小箱〈ヘルレイザー〉をめぐる恐怖映画。',
+  director: 'クライブ・バーカー',
+  country: 'イギリス',
+  year: '1988',
+)
+Image.create!(
+  pic: 'https://iwiz-movies.c.yimg.jp/im_siggAiZb4iAh721.1QtMS4DIMQ---x680/c/movies/pict/p/p/cd/53/137959_01.jpg',
+  post_id: '138',
+)
+Post.create!(
+  title: 'ハイテンション',
+  story: '親友アレックスの実家で週末を過ごすことになった女子大生マリー。ところがその夜、突然訪ねてきた謎の男がアレックスの両親と弟を惨殺、さらにトラックでアレックスを連れ去ろうとする。マリーはなんとか彼女を救おうとするのだが……。',
+  director: 'アレクサンドル・アジャ',
+  country: 'フランス',
+  year: '2003',
+)
+Image.create!(
+  pic: 'https://images-fe.ssl-images-amazon.com/images/I/51SqYrz%2Bm%2BL.jpg',
+  post_id: '139',
+)
+Post.create!(
+  title: '屋敷女',
+  story: 'クリスマス・イブの夜、出産目前の妊婦サラの家を不審な女が訪れる。女が窓から押し入ろうとしたためサラが警察を呼ぶと、女は姿を消す。ひと安心して床に就くサラだったが、なんと女はすでに家の中に侵入しており……。',
+  director: 'ジュリアン・モーリー/アレクサンドル・バスティロ',
+  country: 'フランス',
+  year: '2007',
+)
+Image.create!(
+  pic: 'https://iwiz-movies.c.yimg.jp/im_siggT2uCefeSzsHkhNzdy6PLtw---x680/c/movies/pict/p/p/0a/62/148645_01.jpg',
+  post_id: '140',
+)
 
-
-
-# Post.create!(
-#   title: 'グリーン・インフェルノ',
-#   story: '環境保護を訴える活動をしている学生グループたちはアマゾンの森林伐採の不正を暴くために現地を訪れる。しかし、彼らの過激な活動は問題視され、強制送還されてしまう。不運にも帰路についた飛行機にエンジントラブルが発生。あえなく彼らの乗った飛行機は、熱帯雨林に墜落してしまう。生き残った学生たちは助けを求めるのだが、そこにいたのは人間を食べる習慣をもつ食人族だった…。捕らわれた彼らは一人、また一人と喰われていく―。',
-#   director: 'イーライ・ロス',
-#   country: 'アメリカ',
-#   year: '2015',
-# )
-# Image.create!(
-#   pic: 'https://iwiz-movies.c.yimg.jp/im_siggHV.fli62_K4GH1xQGnMYVg---x680/c/movies/pict/p/p/12/2d/164285_02.jpg',
-#   post_id: '80',
-# )
-# Post.create!(
-#   title: 'ムカデ人間',
-#   story: 'シャム双生児分離手術の専門医として活躍した外科医が、生涯の夢だった人間同士をつなぎ合わせて“人間ムカデ”を作り上げようとするインモラル・ムービー。',
-#   director: 'トム・シックス',
-#   country: 'オランダ/イギリス',
-#   year: '2009',
-# )
-# Image.create!(
-#   pic: 'https://iwiz-movies.c.yimg.jp/im_sigg6BzCHv6nnzBT4a.zwW9giQ---x680/c/movies/pict/p/p/0b/49/156392_01.jpg',
-#   post_id: '100',
-# )
-
-
-
-
-
-
-
-
-
-
-
-
-# Post.create!(
-#   title: '',
-#   story: '',
-#   director: '',
-#   country: 'アメリカ',
-#   year: '2004',
-# )
-# Post.create!(
-#   title: '',
-#   story: '',
-#   director: '',
-#   country: 'アメリカ',
-#   year: '2004',
-# )
-# Post.create!(
-#   title: '',
-#   story: '',
-#   director: '',
-#   country: 'アメリカ',
-#   year: '2004',
-# )
-# Post.create!(
-#   title: '',
-#   story: '',
-#   director: '',
-#   country: 'アメリカ',
-#   year: '2004',
-# )
-# Post.create!(
-#   title: '',
-#   story: '',
-#   director: '',
-#   country: 'アメリカ',
-#   year: '2004',
-# )
-# Post.create!(
-#   title: '',
-#   story: '',
-#   director: '',
-#   country: 'アメリカ',
-#   year: '2004',
-# )
-# Post.create!(
-#   title: '',
-#   story: '',
-#   director: '',
-#   country: 'アメリカ',
-#   year: '2004',
-# )
-# Post.create!(
-#   title: '',
-#   story: '',
-#   director: '',
-#   country: 'アメリカ',
-#   year: '2004',
-# )
 
 
 
