@@ -1627,7 +1627,6 @@ Image.create!(
 
 
 
-
 Genre.create!(
   genre: 'ゾンビ',
 )
