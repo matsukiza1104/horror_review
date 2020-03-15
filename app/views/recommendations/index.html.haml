@@ -12,7 +12,8 @@
   .recommendation__comment__field
     - if user_signed_in?
       = form_for "aa" do |f|
-        = f.text_area :content, placeholder: "コメントする", class: 'comment-box'
+        = f.text_field :content, placeholder: "タイトルを入力する", class: 'recommend-title-box'
+        = f.text_area :content, placeholder: "コメントする", class: 'recommend-comment-box'
         = f.submit "SEND", class: "form__submit"
 
     - else
