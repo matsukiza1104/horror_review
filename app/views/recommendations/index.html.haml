@@ -8,21 +8,23 @@
 
   
 
--# .recommendation__comment
--#   .recommendation__comment__field
--#     - if user_signed_in?
--#       = form_for [@post, @comment] do |f|
--#         = f.text_area :content, placeholder: "コメントする", class: 'comment-box'
--#         = f.submit "SEND", class: "form__submit"
+.recommendation-comment
+  - if user_signed_in?
+    .recommendation-comment__content
+      = form_for "aa" do |f|
+        = f.text_field :content, placeholder: "タイトルを入力する", class: 'recommend-title-box'
 
--#         = render partial: 'likes/like', locals: { post: @post, likes: @likes}
--#     - else
--#       .recommendation__comment__field__disabled-post
--#         コメントを投稿するには
--#         = link_to "ログイン", new_user_session_path, class: "log-in"
--#         、または
--#         = link_to "新規登録", new_user_registration_path, class: "log-in"
--#         をしてください。
+        = f.text_area :content, placeholder: "コメントする", class: 'recommend-comment-box'
+        = f.submit "SEND", class: "form__submit"
+
+  - else
+    .recommendation-comment__field__disabled-post
+      コメントを投稿するには
+      = link_to "ログイン", new_user_session_path, class: "log-in"
+      、または
+      = link_to "新規登録", new_user_registration_path, class: "log-in"
+      をしてください。
+          
           
 
 

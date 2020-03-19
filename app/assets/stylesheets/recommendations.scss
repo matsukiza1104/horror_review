@@ -21,3 +21,23 @@
     border-bottom: 1px solid
   }
 }
+
+.recommendation-comment {
+  background-color: gray;
+  height: 100%;
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+  &__content {
+    text-align: center;
+  }
+}
+
+  .recommend-title-box{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 400px;
+    
+  }
