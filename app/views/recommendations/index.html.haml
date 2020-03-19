@@ -13,7 +13,7 @@
     .recommendation-comment__content
       = form_for "aa" do |f|
         = f.text_field :content, placeholder: "タイトルを入力する", class: 'recommend-title-box'
-        
+
         = f.text_area :content, placeholder: "コメントする", class: 'recommend-comment-box'
         = f.submit "SEND", class: "form__submit"
 
@@ -24,6 +24,7 @@
       、または
       = link_to "新規登録", new_user_registration_path, class: "log-in"
       をしてください。
+          
           
 
 
