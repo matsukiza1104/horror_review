@@ -34,10 +34,17 @@
   }
 }
 
-  .recommend-title-box{
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    width: 400px;
-    
-  }
+.recommend-title-box{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 600px;
+  height: 50px; 
+  font-size: 20px;
+}
+
+.recommend-comment-box {
+  width: 600px;
+  height: 200px;
+  font-size: 18px;
+}
