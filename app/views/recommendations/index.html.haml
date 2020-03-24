@@ -14,6 +14,7 @@
       = form_for "aa" do |f|
         オススメしたい映画
         = f.text_field :content, placeholder: "タイトルを入力する", class: 'recommend-title-box'
+        %br
         レビュー
         = f.text_area :content, placeholder: "コメントする", class: 'recommend-comment-box'
         = f.submit "SEND", class: "form__submit"
