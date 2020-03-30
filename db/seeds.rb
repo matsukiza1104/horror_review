@@ -1472,7 +1472,7 @@ Post.create!(
   year: '2004',
 )
 Image.create!(
-  pic: 'https://coni-tablog.com/wp-content/uploads/2018/05/20111012044349.jpg',
+  pic: 'https://cdn-ak.f.st-hatena.com/images/fotolife/t/tsuchinoko118/20111012/20111012044349.jpg',
   post_id: '127',
 )
 Post.create!(
