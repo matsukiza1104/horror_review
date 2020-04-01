@@ -1395,7 +1395,6 @@ Image.create!(
 
 
 
-
 # グロテスク映画
 
 Post.create!(
